@@ -1,0 +1,14 @@
+## �˿�
+server:
+  port: 8080
+## �໷������
+spring:
+  profiles:
+    active: dev
+  mvc:
+    view:
+      suffix: .html
+      prefix: classpath:/templates/admin
+
+
+
