@@ -1,14 +1,18 @@
 ## �˿�
 server:
-  port: 8080
+  port: 80
 ## �໷������
 spring:
   profiles:
     active: dev
-  mvc:
-    view:
-      suffix: .html
-      prefix: classpath:/templates/admin
+  security:
+    user:
+      name: admin
+      password: admin
+      roles: vip
+jwt:
+  base64-secret: eHVlYmFvUHJvRm9yRHJpdmVyOTY1NjU5NDc4eHVlYmFvUHJvRHJpdmVyOTY1NjU5NDc4eHVlYmFvUHJvRHJpdmVy
+
 
 
 

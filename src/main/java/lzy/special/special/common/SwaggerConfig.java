@@ -34,6 +34,7 @@ public class SwaggerConfig {
 
     private ApiInfo apiInfo(){
         return new ApiInfoBuilder()
+
                 .title("梓云大帝的文档")
                 .description("眼色多温柔，你有多爱我")
                 .version("1.0")
